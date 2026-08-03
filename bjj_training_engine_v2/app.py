@@ -734,3 +734,20 @@ st.sidebar.write(
     "Excluded: diagnosis, rehabilitation, return-to-sport clearance, rapid weight cutting, minors, pregnancy, "
     "medication advice, and individualized clinical exercise prescription."
 )
+st.sidebar.divider()
+
+st.sidebar.header("Important Notice")
+
+st.sidebar.warning(
+    """
+    This application is an educational prototype for apparently healthy
+    adult BJJ practitioners.
+
+    It does not provide medical diagnosis, injury rehabilitation,
+    treatment, or return-to-sport clearance.
+
+    If you have severe pain, neurological symptoms, chest pain,
+    suspected concussion, a recent surgery, or another medical concern,
+    stop using the program and consult an appropriate healthcare professional.
+    """
+)
